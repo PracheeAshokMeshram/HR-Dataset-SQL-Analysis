@@ -1,15 +1,7 @@
-HR Employee Database Analysis
-
-
-
-
-
-
-
-
+HR Employee Database Analysis:
 This project demonstrates SQL-based Exploratory Data Analysis (EDA) on an HR dataset using MySQL Workbench. The goal is to analyze employee records and provide insights into workforce distribution, marital status, and employment status.
 
-📌 Project Overview
+📌 Project Overview :
 
 Count total employees.
 
@@ -19,7 +11,7 @@ Analyze department-wise distribution.
 
 Group employees by marital status.
 
-🛠️ Tech Stack
+🛠️ Tech Stack :
 
 Database: MySQL
 
@@ -27,13 +19,14 @@ Tool: MySQL Workbench
 
 Language: SQL
 
-📊 Dataset Information
+📊 Dataset Information :
 
 Table: employees
 
 EmpID, Employee_Name, MaritalStatusID, GenderID, DeptID, DateOfTermination
 
-🔍 Key SQL Queries
+🔍 Key SQL Queries :
+
 -- Total Employees
 SELECT COUNT(*) AS Total_Employees FROM employees;
 
@@ -47,7 +40,7 @@ SELECT Department, COUNT(*) AS Count
 FROM employees
 GROUP BY Department;
 
-📊 Results Preview
+📊 Results Preview :
 Department-Wise Employee Count
 Department	Count
 Production	201
@@ -61,7 +54,8 @@ Category	Count
 Total Employees	303
 Current Employees	302
 Old Employees	1
-🚀 How to Run (Brief)
+
+🚀 How to Run (Brief) :
 
 Install MySQL Workbench.
 
@@ -71,7 +65,7 @@ Open the SQL script file from this repo.
 
 Run queries step by step to generate insights.
 
-📈 Insights Generated
+📈 Insights Generated :
 
 Production department has the highest workforce.
 
@@ -79,7 +73,7 @@ Clear view of active vs. terminated employees.
 
 HR analytics simplified through SQL queries.
 
-🔮 Future Scope
+🔮 Future Scope :
 
 Create interactive dashboards in Power BI / Tableau for better visualization.
 
@@ -89,11 +83,11 @@ Integrate with Python (Pandas, Matplotlib, Seaborn) for advanced analytics.
 
 Build HR KPIs dashboards (attrition rate, gender diversity, employee turnover).
 
-👩‍💻 Author
+👩‍💻 Author :
 
-Prachee A. Meshram
+ Prachee A. Meshram
 📧 prachee.ajm20@gmail.com
 
 🔗 GitHub Profile -  https://github.com/PracheeAshokMeshram
 
-🔗 LinkedIn Profile-
+🔗 LinkedIn Profile- www.linkedin.com/in/prachee-a-meshram-975766296
